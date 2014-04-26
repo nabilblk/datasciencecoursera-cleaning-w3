@@ -71,7 +71,9 @@ meanVars <- dcast(sxylMeltAll, subject+activity ~ variable, mean)
 # show format
 head(meanVars[,1:4], n=20)
 
-write.csv(meanVars, file = "sensor-mean-vars.csv");#, sep = ";")
+#write.csv(meanVars, file = paste(data, "/sensor-mean-vars.csv", sep=""));#, sep = ";")
+write.table(meanVars, file = paste(data, "/sensor-mean-vars.txt", sep=""));#, sep = ";")
+
 # TODO : have number format compatible with default XL (, and not .)
 
 
