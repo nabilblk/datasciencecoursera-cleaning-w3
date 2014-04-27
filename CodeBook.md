@@ -11,7 +11,7 @@ run_analysis.R processes mobile sensor data sampled by [1] to provide 561 mean m
  5. STANDING
  6. LAYING 
 
-Mean movements are processed from train and test data, based on features documentes in [DATA]/features_info.txt
+Mean movements are processed from data providing 561 features documented in [DATA]/features_info.txt
 
 Output format
 -------------
